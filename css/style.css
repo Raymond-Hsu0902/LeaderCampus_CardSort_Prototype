@@ -97,7 +97,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #ffffff;
+	color: #e53637;
 }
 
 ul,
@@ -478,7 +478,7 @@ ol {
 	left: 0;
 	top: 56px;
 	width: 150px;
-	background: #111111;
+	background: #4d4a4a;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -543,10 +543,15 @@ ol {
 	display: block;
 	margin-top: -35px;
 	margin-left: 140px;
-	background: #111111;
+	background: #4d4a4a;
 	left: 0;
 	width: 150px;
 	
+}
+
+.header__menu ul li .dropdown li a:hover
+{
+	color: #e53637;
 }
 
 .header__nav__option {
