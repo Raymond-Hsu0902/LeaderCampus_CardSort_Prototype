@@ -507,7 +507,7 @@ ol {
 }
 
 .header__menu ul li a {
-	font-size: 18px;
+	font-size: 16px;
 	color: #111111;
 	display: block;
 	font-weight: 600;
@@ -529,6 +529,24 @@ ol {
 	-webkit-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
+}
+
+.sub-menu-2
+{
+	display: none;
+
+}
+
+.hover-me:hover .sub-menu-2
+{
+	position: absolute;
+	display: block;
+	margin-top: -35px;
+	margin-left: 140px;
+	background: #111111;
+	left: 0;
+	width: 150px;
+	
 }
 
 .header__nav__option {
